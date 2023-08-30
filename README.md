@@ -31,8 +31,6 @@ Refer to [Movie Recommendation System Development Notebook](https://github.com/p
 #### 3) Exploring Hugging Chat API in Jupyter Notebook 🤗
 Refer to [Hugging Chat Chatbot Notebook](https://github.com/phyosandarwin/movie-recommender-chatbot/blob/ac63d1ffb686088c5e438fb80a1f5044efd5e469/notebooks/Hugchat_Chatbot_(New_Feature).ipynb)
 
-References:[@Data Professor Youtube Video](https://www.youtube.com/watch?v=T_iE6TT7pS8) and his [repository](https://github.com/dataprofessor/hugchat) 
-
 #### 4) Using Streamlit Frontend to build the Recommendation Guide Page and Chatbot Page 
 View the webpage [here](https://movie-recommender-chatbot.streamlit.app/)!
 
@@ -55,3 +53,8 @@ streamlit run Home.py
 - create a multi-options filtering system for recommendations section
 - incorporate collaborative filtering to get movies recommended by other users who watch similar content
 - use TMDB API to grab movie posters that will help users to visually reference to the recommended movies lest they want to search it up in a movie streaming website
+
+## Acknowledgements
+* Concepts of the project (including use of Jupyter widgets): [Movie Recommendation Project BY @DATAQUEST](https://youtu.be/eyEabQRBMQA)
+* Use of Streamlit components and app deployment Youtube tutorials on [Sven(Coding is Fun)](https://www.youtube.com/@CodingIsFun) and [Misra Turp](https://www.youtube.com/@misraturp)
+* Use of Hugging Chat API : [@Data Professor Youtube Video](https://www.youtube.com/watch?v=T_iE6TT7pS8) and his [repository](https://github.com/dataprofessor/hugchat)
