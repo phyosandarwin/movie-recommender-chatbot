@@ -10,9 +10,9 @@ This is a movie recommendation and chatbot application built with Streamlit. Use
 - Find similar movies
 - Real time interaction with the chatbot
 
-## Process:
+## Process
 
-### 1) Data cleaning and exploration 🔍 
+#### 1) Data cleaning and exploration 🔍 
 Refer to [EDA Notebook](https://github.com/phyosandarwin/movie-recommender-chatbot/blob/ac63d1ffb686088c5e438fb80a1f5044efd5e469/notebooks/Movie-Recommendation%20eda.ipynb)
 
 - removed columns irrelevant to me as a general audience
@@ -20,20 +20,20 @@ Refer to [EDA Notebook](https://github.com/phyosandarwin/movie-recommender-chatb
 - visualising the distributions of numeric variables (though unnecessary in this project)
 - clarified certain ambiguous values in categorical columns
 
-### 2) Building the movie recommender system and trials with Jupyter Widgets ✍
-Refer to [Movie Recommendation System Development](https://github.com/phyosandarwin/movie-recommender-chatbot/blob/ac63d1ffb686088c5e438fb80a1f5044efd5e469/notebooks/Movie-Recommendation%20system.ipynb)
+#### 2) Building the movie recommender system and trials with Jupyter Widgets ✍
+Refer to [Movie Recommendation System Development Notebook](https://github.com/phyosandarwin/movie-recommender-chatbot/blob/ac63d1ffb686088c5e438fb80a1f5044efd5e469/notebooks/Movie-Recommendation%20system.ipynb)
 
 - Text preprocessing of movie title and overview:
   - `re`, `TfidfVectorizer`, `cosine_similarity`, `fuzz` modules used
 - functions coded returns top/ best 10 search results
 - used Text, Dropdown Jupyter widgets
 
-### 3) Exploring Hugging Chat API in Jupyter Notebook 🤗
+#### 3) Exploring Hugging Chat API in Jupyter Notebook 🤗
 Refer to [Hugging Chat Chatbot Notebook](https://github.com/phyosandarwin/movie-recommender-chatbot/blob/ac63d1ffb686088c5e438fb80a1f5044efd5e469/notebooks/Hugchat_Chatbot_(New_Feature).ipynb)
 
 References:[@Data Professor Youtube Video](https://www.youtube.com/watch?v=T_iE6TT7pS8) and his [repository](https://github.com/dataprofessor/hugchat) 
 
-### 4) Using Streamlit Frontend to build the Recommendation Guide Page and Chatbot Page 
+#### 4) Using Streamlit Frontend to build the Recommendation Guide Page and Chatbot Page 
 View the webpage [here](https://movie-recommender-chatbot.streamlit.app/)!
 
 
@@ -48,7 +48,7 @@ View the webpage [here](https://movie-recommender-chatbot.streamlit.app/)!
 Run the Streamlit app using the following command:
 
 ```bash
-streamlit run app.py
+streamlit run Home.py
 ```
 
 ## Future enhancements
