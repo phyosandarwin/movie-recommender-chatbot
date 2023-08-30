@@ -49,9 +49,9 @@ Run the Streamlit app using the following command:
 
 ```bash
 streamlit run app.py
+```
 
-
-## Future enhancements 
+## Future enhancements
 - create a multi-options filtering system for recommendations section
 - incorporate collaborative filtering to get movies recommended by other users who watch similar content
 - use TMDB API to grab movie posters that will help users to visually reference to the recommended movies lest they want to search it up in a movie streaming website
