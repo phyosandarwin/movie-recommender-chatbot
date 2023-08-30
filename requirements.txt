@@ -1,0 +1,10 @@
+fuzzywuzzy==0.18.0
+hugchat==0.2.0
+pandas==2.0.2
+Pillow==9.5.0
+Pillow==10.0.0
+Requests==2.31.0
+scikit_learn==1.2.2
+streamlit==1.26.0
+streamlit_extras==0.3.0
+streamlit_lottie==0.0.5
